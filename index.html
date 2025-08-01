@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+       display: flex;
+      justify-content: center; /* Centers horizontally */
+      align-items: center; /* Centers vertically */
+      height: 100vh;
+      width: 100%;
+    }
+    #parent-container {
+      background-color: black;
+      border:5px solid rgb(255, 145, 0);
+      height: 550px;
+      width: 700px;
+    }
+    #img{
+      border: 5px solid white;
+      margin: 50px 5px 7px 100px;
+    }
+    h1{
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+      padding: 10px ;
+      margin: 0px 0px 0px 0px;
+    }
+    p{
+      color: white;
+      text-align: center;
+    }
+   .libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+  
+}
+#h1{
+  background-color: aquamarine;
+  margin: 0px 0px 50px 0px;
+}
+
+  </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <title>MOTIVATION MEME</title>
+</head>
+<body>
+  <div id="parent-container">
+    <img id="img" src="./assets/images/EL.jpeg" 
+   width="500px" alt="daenerys">
+   <h1 class="libre-baskerville-bold">Family Ham Rico</h1>
+   <p>A love that God give us!!!</p>
+  </div>
+  
+</body>
+</html>
+
+
+
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
